@@ -1,0 +1,17 @@
+{
+  "name": "sg-project-1-to",
+  "description": "Sparta Global Project 1",
+  "main": "index.js",
+  "authors": [
+    "tolaoke@spartaglobal.co"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tolavolaoke/sg-project-1-to",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
