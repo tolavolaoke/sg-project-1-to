@@ -1,0 +1,19 @@
+{
+  "name": "sg-project-1-to",
+  "version": "1.0.0",
+  "description": "Sparta Global Project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolavolaoke/sg-project-1-to.git"
+  },
+  "author": "tolaoke@spartaglobal.co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolavolaoke/sg-project-1-to/issues"
+  },
+  "homepage": "https://github.com/tolavolaoke/sg-project-1-to#readme"
+}
