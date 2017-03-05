@@ -5,13 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- link to jquery -->
+    <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
 
     <!-- link to bootstrap css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-
-
-<!-- link to jquery -->
-  <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
 
 
 <!-- link to bootstrap js -->
@@ -19,6 +17,7 @@
 
 <!-- link to css -->
   <link rel="stylesheet" href="main.scss">
+
   <title>SG Project 1</title>
 </head>
 
@@ -32,26 +31,32 @@
 
   <button class="btn1 btn-default btn-lg">START</button>
 
+</div>
 
-<canvas id="canvas" style= "border: solid 1px black; height:600px; width:500px;">
-  <div id="rectangle"></div> <!-- Block component -->
 
-  <div id="blue-block"></div> <!-- Block component -->
+<div>
+<canvas id="canvas" width="500" height="600">
+  <!-- <div id="rectangle"></div> <!-- Block component -->
 
-  <div id="light-blue-block"></div> <!-- Block component -->
+  <!-- <div id="blue-block"></div> <!-- Block component -->
+
+  <!-- <div id="light-blue-block"></div> <!-- Block component -->
 
 </canvas>
+</div>
   <button class="btn2 btn-default btn-lg">END GAME</button>
 
   <h3 class="text-center">Levels</h3>
-  <button class="btn3 btn-default btn-lg">Easy Peasy</button>
-    <button class="btn4 btn-default btn-lg">Medium</button>
-      <button class="btn5 btn-default btn-lg">Hard as Rock</button>
+<ul>
+  <li><button class="btn3 btn-default btn-lg">Easy Peasy</button></li>
+    <li><button class="btn4 btn-default btn-lg">Medium</button></li>
+      <li><button class="btn5 btn-default btn-lg">Hard as Rock</button></li>
 
+</ul>
 
+<!-- </div> -->
 
-</div>
+</body>
 <!-- link to javascript -->
   <script src="main.js" charset="utf-8"></script>
-</body>
 </html>
