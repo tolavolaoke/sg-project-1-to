@@ -1,0 +1,44 @@
+/* start button */
+.btn1{
+  display: block;
+}
+
+section{
+  border: solid 1px black;
+  height:600px;
+  width:500px;
+  margin: 0 auto;
+}
+
+
+/* main block*/
+#rectangle{
+   width: 100px;
+   height: 50px;
+   background:black;
+   margin: 549px auto;
+   border-style: none;
+}
+
+.blue{
+  background: blue;
+}
+
+/* button list */
+ul li{
+  list-style: none;
+
+}
+
+/* blue-block */
+.blue-block {
+  width:100px;
+  height:50px;
+  background:blue;
+}
+ /*light-blue-block*/
+.light-blue-block {
+  width: 100px;
+  height: 50px;
+  background: lightblue;
+}
