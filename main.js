@@ -1,28 +1,6 @@
 console.log($);
 console.log('Java Script Works!');
 
-//---------------------CANVAS -----------------------------
-// var canvas = document.getElementById('canvas');//referencing the canvas element to the canvas variable
-// var ctx = canvas.getContext('2d'); //varaible to store the 2D shape (rectangle)
-// // The rectangle shape (the main colour changing block)
-
-
-//---------DRAWING RECTANGLE OBJECT ONTO CANVAS------------
-
-//
-// ctx.beginPath();
-// ctx.rect(200, 570, 100, 30);//(x- axis, y- axis, width, height of the rectangle block)
-// ctx.fillStyle = 'black';
-// ctx.fill();
-// ctx.closePath();
-
-// ctx.beginPath();
-// ctx.rect(235, 0, 30, 80);//(x- axis, y- axis, width, height of the rectangle block)
-// ctx.fillStyle = 'blue';
-// ctx.fill();
-// ctx.closePath();
-// ...............................................
-
 
 // ---------------------------Creating the Arrays of objects---------------------------------------------
 
@@ -37,13 +15,29 @@ console.log('Java Script Works!');
 
 //----------------  MODAL JS ------------------------------
 // Create a bootstrap js modal bar for instructions!
-
+//.........................................................................
 //Click rectangle to change colour
+
 var target = document.getElementById('rectangle');
 target.addEventListener('click', function () {
   target.style.background = 'blue';
 });
 
+
 //Array
-// var block []
-// int index = new Random().nextInt(someArray.length);
+// var blocks = ['blue-block', 'light-blue-block'];
+// document.getElementsByClassName('blue-block', 'light-blue-block').innerHTML;
+//
+// console.log(blocks);
+
+// Dropdown function for the light blue block and blue block jquery----------
+$('.btn1').click(function(){
+  setTimeout(function () {
+    $('.blue-block').addClass('drop-down');
+  }, 1000);
+
+  setTimeout(function () {
+    $('.light-blue-block').addClass('drop-down');
+  }, 2000);
+
+});

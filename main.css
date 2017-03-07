@@ -1,10 +1,11 @@
 /* start button */
 .btn1{
   display: block;
+
 }
 
 section{
-  border: solid 1px black;
+  border: solid 2px black;
   height:600px;
   width:500px;
   margin: 0 auto;
@@ -27,7 +28,6 @@ section{
 /* button list */
 ul li{
   list-style: none;
-
 }
 
 /* blue-block */
@@ -35,10 +35,27 @@ ul li{
   width:100px;
   height:50px;
   background:blue;
+  position: absolute;
+    top: 0px;
+    transition: top 1s linear;
+    transform: rotate(90deg);
+    margin: 0;
+    left: 44%;
 }
  /*light-blue-block*/
 .light-blue-block {
   width: 100px;
   height: 50px;
   background: lightblue;
+  position: absolute;
+    top: 0px;
+    transition: top 1s linear;
+    transform:rotate(90deg);
+    margin: 0;
+    left: 44%;
+}
+
+.drop-down {
+  top: 550px;
+  transition: top 1s linear;
 }
