@@ -1,43 +1,31 @@
 console.log($);
 console.log('Java Script Works!');
 
-
-// ---------------------------Creating the Arrays of objects---------------------------------------------
-
-// Create Array of blue blocks
-// Create array of light blue blocks
-// Create Random function linked to a animated drop/falling function
-
-//-------------------------- Matching the colours of the falling blocks with thr main block ------------------------
-
-// If the colour of the falling block matches the main block player scores a point.
-// Else if it doesn't match post the message 'You loose!' and link to start game.
-
-//----------------  MODAL JS ------------------------------
-// Create a bootstrap js modal bar for instructions!
-//.........................................................................
-//Click rectangle to change colour
-
-var target = document.getElementById('rectangle');
-target.addEventListener('click', function () {
-  target.style.background = 'blue';
-});
-
-
-//Array
-// var blocks = ['blue-block', 'light-blue-block'];
-// document.getElementsByClassName('blue-block', 'light-blue-block').innerHTML;
-//
-// console.log(blocks);
-
-// Dropdown function for the light blue block and blue block jquery----------
+// FUNCTION THAT MAKES THE BLOCKS DROPDOWN WHEN START BUTTON IS CLICKED
 $('.btn1').click(function(){
   setTimeout(function () {
     $('.blue-block').addClass('drop-down');
-  }, 1000);
+  }, 500);
 
   setTimeout(function () {
     $('.light-blue-block').addClass('drop-down');
-  }, 2000);
+  }, 1000);
 
 });
+
+
+
+
+
+
+
+// TEST-------------------------------------------------
+// var block1 = new dropdown($('<div class="blue-block"></div>'));
+// var block2 = new dropdown($('<div class="light-blue-block"></div>'));
+// var block3 = new dropdown($('<div class="blue-block2"></div>'));
+// var block4 = new dropdown($('<div class="light-blue-block2"></div>'));
+// var block5 = new dropdown($('<div class="blue-block3"></div>'));
+// var block6 = new dropdown($('<div class="light-blue-block3"></div>'));
+// var blocks = [block1, block2, block3, block4, block5, block6];
+
+// setTimeout(function(target){
