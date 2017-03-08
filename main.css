@@ -1,5 +1,5 @@
 /* start button */
-.btn1{
+.startBtn{
   display: block;
 }
 
@@ -22,10 +22,6 @@ section{
 #rectangle.blue{
   background:blue;
 }
-
-/*.blue{
-  background: blue;
-}*/
 
 /* button list */
 ul li{
