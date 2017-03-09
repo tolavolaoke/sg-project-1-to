@@ -2,6 +2,7 @@ console.log($);
 console.log('Java Script Works!');
 
 // source: http://stackoverflow.com/a/4550514
+// CREATES ARRAY AND RANDOMIZES THE ORDER OF THE ELEMENTS
 function selectRandomArrayElement(array) {
   return array[Math.floor(Math.random() * array.length)];
 }
@@ -19,7 +20,7 @@ function addRandomBlock() {
 
 //FUNCTION THAT MAKES THE BLOCKS FALL/DROPDOWN WHEN START BUTTON IS CLICKED
 $('.startBtn').click(function(){
-  var numberOfBlocks = 10;
+  var numberOfBlocks = 20; // total number of blocks in the loop
   var $randomBlocks = [];
   var intervalBetweenBlockDrops = 1000; // milliseconds
 
