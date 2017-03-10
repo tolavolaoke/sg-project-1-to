@@ -44,7 +44,6 @@ $('.startBtn').click(function(){
         }
       }, 100);
 
-
     }, intervalBetweenBlockDrops * (i+1));
   });
 });
@@ -53,11 +52,8 @@ function collisionDetected ($el) {
   console.log('we have a collision!');
   $el.fadeOut();
 }
+
 function checkCollision (randomOffsetTop) {
   console.log('checking offset....');
-  // console.log(baseOffset)
-  // console.log(randomOffsetTop)
-  // console.log()
   return randomOffsetTop === 608;
-
 }

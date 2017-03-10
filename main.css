@@ -20,7 +20,7 @@ section{
 }
 
 #rectangle.blue{
-  background:blue;
+  background: blue;
 }
 
 /* button list */
@@ -34,11 +34,12 @@ ul li{
   height:50px;
   background:blue;
   position: absolute;
-    top: 184px;
+    top: -175px;
     transition: top 1s linear;
     transform: rotate(90deg);
     margin: 0;
-    left: 44%;
+    left: 40%;
+    opacity: 1;
 }
 
  /*light-blue-block*/
@@ -47,62 +48,26 @@ ul li{
   height: 50px;
   background: lightblue;
   position: absolute;
-    top: 184px;
+    top: -175px; /*184*/
     transition: top 1s linear;
     transform:rotate(90deg);
     margin: 0;
-    left: 44%;
+    left: 40%;
+    opacity: 1;
 }
-
-/*.blue-block2 {
-  width:100px;
-  height:50px;
-  background:blue;
-  position: absolute;
-    top: 184px;
-    transition: top 1s linear;
-    transform: rotate(90deg);
-    margin: 0;
-    left: 44%;
-}
-
-.light-blue-block2 {
-  width:100px;
-  height:50px;
-  background:lightblue;
-  position: absolute;
-    top: 184px;
-    transition: top 1s linear;
-    transform: rotate(90deg);
-    margin: 0;
-    left: 44%;
-}
-
-.blue-block3 {
-  width:100px;
-  height:50px;
-  background:blue;
-  position: absolute;
-    top: 184px;
-    transition: top 1s linear;
-    transform: rotate(90deg);
-    margin: 0;
-    left: 44%;
-}
-
-.light-blue-block3 {
-  width:100px;
-  height:50px;
-  background:lightblue;
-  position: absolute;
-    top: 184px;
-    transition: top 1s linear;
-    transform: rotate(90deg);
-    margin: 0;
-    left: 44%;
-}*/
 
 .drop-down {
-  top: 633px;
+  top: 474px;
+  opacity: 1;
   transition: top 1s linear 1s;
+}
+
+.points {
+  position: absolute;
+
+}
+
+#block-container {
+  position: relative;
+  overflow: hidden;
 }
