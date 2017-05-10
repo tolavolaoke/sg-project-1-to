@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <!-- link to jquery -->
+      <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+
+      <!-- link to main css -->
+        <link rel="stylesheet" href="main.css">
+
+  <title>Star Game page</title>
+</head>
+<body>
+
+  <div class="text-block">
+      <h1 class="block-text">Colour Block</h1>
+      <h2>Game</h2>
+  </div>
+
+
+  <div class="container">
+    <div class="interior">
+      <!-- <a href="index.html" ><button class="startBtn">Start</button></a> -->
+        <a class="btn" href="index.html">Start</a>
+      <a class="btn2" href="#open-modal">Instructions</a>
+    </div>
+  </div>
+  <div id="open-modal" class="modal-window">
+      <div>
+          <a href="#modal-close" title="Close" class="modal-close">Close</a>
+       <h1>How to play!</h1>
+       <div>The object of the game is to score points by matching the colour of the falling block to the colour of the base block.</div>
+
+  <div>Use the right click on the mouse or trackpad to change the colour of the base block.</div>
+
+        <div>Good luck!</div>
+      </div>
+  </div>
+
+</body>
+<!-- link to score.js -->
+<script src="score.js" charset="utf-8"></script>
+
+<!-- link to rectangle.js -->
+<script src="rectangle.js" charset="utf-8"></script>
+
+<!-- link to javascript -->
+<script src="main.js" charset="utf-8"></script>
+</html>
