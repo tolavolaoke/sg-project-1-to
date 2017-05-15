@@ -4,9 +4,6 @@ $('.endGameBtn').click(function() {
   document.location.assign('file:///Users/Tech-A23/Development/sg-project-1-to/start.html');
 });
 
-
-
-
 console.log('It works! Fabulous!');
 console.log($);
 
@@ -36,6 +33,7 @@ $('.startBtn').click(function(){
   var numberOfBlocks = 20; // total number of blocks in the loop
   var $randomBlocks = []; // an empty array where the new random blocks will be created
   var intervalBetweenBlockDrops = 1000; // milliseconds
+  var score = 0;
 
 
   for (var i = 1 ; i <= numberOfBlocks ; i++) {
@@ -61,9 +59,25 @@ $('.startBtn').click(function(){
 function collisionDetected ($el) {
   console.log('we have a collision!');// Will print out 'we have a collision' To test the function in JavaScript
   $el.fadeOut(); // The falling block will fade when in contact with the base block
+  addScore($el);
 }
 
 function checkCollision (randomOffsetTop) { // Function to check if there is collision
   console.log('checking offset....');
   return randomOffsetTop === 563; //The position where the base block and falling block meets
+}
+var score = 0;
+
+function addScore($randomBlock) {
+  var points = document.getElementById('points');
+  var rectangle = document.getElementById('rectangle');
+  if($randomBlock.hasClass('blue-block') && $(rectangle).hasClass('blue')) {
+    score++;
+    $(points).html(score);
+  } else if($randomBlock.hasClass('light-blue-block') && !$(rectangle).hasClass('blue')){
+    score++;
+    $(points).html(score);
+  } else {
+    console.log('You Lose!');
+  }
 }
